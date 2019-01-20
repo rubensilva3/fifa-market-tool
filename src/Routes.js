@@ -1,19 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Main from './components/Main';
+import AboutMe from './components/AboutMe';
 
-class Routes extends Component {
-    constructor(props) {
-        super(props);
-    }
-
-    render() {
-        return (
-            <Switch>
-                <Route exact path="/" component={Main} />
-            </Switch>
-        );
-    }
-}
+const Routes = () => (
+    <Switch>
+        <Route exact path="/" component={Main} />
+        <Route exact path="/about-me" component={AboutMe} />
+    </Switch>
+);
 
 export default Routes;

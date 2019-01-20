@@ -12,7 +12,7 @@ self.__precacheManifest = [
     "url": "/fifa-market-tool/static/js/1.71f61924.chunk.js"
   },
   {
-    "revision": "eb2d47dc108bab26aed9ee908dcf9cf2",
+    "revision": "0aed94a22960d2de02b8e8f1181a1c48",
     "url": "/fifa-market-tool/index.html"
   }
 ];

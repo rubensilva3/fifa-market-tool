@@ -33,7 +33,7 @@
             "type": "image/png"
         }
     ],
-    "start_url": "/fifa-market-url/",
+    "start_url": "/fifa-market-tool/",
     "display": "standalone",
     "theme_color": "#311b92",
     "background_color": "#ffffff"
